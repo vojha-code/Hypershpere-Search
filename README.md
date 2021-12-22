@@ -6,7 +6,8 @@ Civil Engineering Problem: Space Truss Structure Equilibrium Optimization and An
 ### Problem - Sixteen Members
 A load is applied vertically downward on the structure shown below. This produced a buckling effect on the structure, and it displaces downward. This displacement follows an equilibrium path. The goal is to find this equilibrium path. This is a multimodal optimization problem.
 
-![](https://github.com/vojha-code/equilibrium/blob/main/imgs/sixteen_member.png =250x)
+<img src="https://github.com/VarunKumarOjha/equilibrium/blob/main/imgs/sixteen_member.png" alt="drawing" width="200"/>
+![](https://github.com/VarunKumarOjha/equilibrium/blob/main/imgs/sixteen_member.png)
 
 ### Solution - Sixteen Members
 
