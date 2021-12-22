@@ -5,7 +5,7 @@ Introduction to a Civil Engineering Problem: Space Truss Structure Equilibrium O
 3. Test Problem: 3D reticular beam 
 
 
-## An Example
+## Example 
 
 ### Problem - Sixteen-Member Shallow Truss Structure
 A load is applied vertically downward on the structure shown below. This produced a buckling effect on the structure, and it displaces downward. This displacement follows an equilibrium path. The goal is to find this equilibrium path. This is a multimodal optimization problem.
