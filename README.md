@@ -26,11 +26,13 @@ A load is applied vertically downward on the structure shown below. This produce
 - ProblemSetting
 - Structure_Problems
 
-### Main Domain Analysis Trials
+### Domain Analysis Trials
+
+Main
 ```Matlab
 main_optimize_structure_main_trails.m
 ```
-Discrete Domain Analysis Trials
+Decomposed Domain Analysis Trials
 ```Matlab
 main_optimize_structure_discrete.m
 ```
@@ -39,4 +41,7 @@ main_optimize_structure_discrete.m
 ```Matlab
 main_optimize_structure_hypersphere.m
 ```
+### Note on Running this code.
+These three commands/files are for running three different sets of analysis. The first main file is to perform basic trials on the full domain of the problem. The second file helps partition the space. The third file helps perform the hypersphere search algorithm. The setting of the problems is in the ProblemSetting folder. These need to be manually tuned as per the requirement as their arguments for the analysis are not passed through the command line but the MATLAB scripts require to be updated for varied settings. There are several objective function evaluation files options. These options are there to help run algorithms converge faster. For instance, converting a 100 mm displacement into 10cm or 1000mm into 1m helps algorithms converge better. 
+
 
