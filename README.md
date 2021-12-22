@@ -8,12 +8,12 @@ A load is applied vertically downward on the structure shown below. This produce
 
 <img src="https://github.com/VarunKumarOjha/equilibrium/blob/main/imgs/sixteen_member.png" alt="drawing" width="500"/>
 <!--- ![](https://github.com/VarunKumarOjha/equilibrium/blob/main/imgs/sixteen_member.png) -->
-**Figure** Sixteen-Member Shallow Truss Structure. _Left:_ Top View. _Right:_ Side View. The central node is indicated by a lighter color dot in the Top view and a light color arrow pointer in the side view. The arrow on the side view indicates a vertical downward external force of 4450kN applied on the central node.
+*Figure* Sixteen-Member Shallow Truss Structure. _Left:_ Top View. _Right:_ Side View. The central node is indicated by a lighter color dot in the Top view and a light color arrow pointer in the side view. The arrow on the side view indicates a vertical downward external force of 4450kN applied on the central node.
 
 ### Solution - Sixteen Members
 
 <img src="https://github.com/VarunKumarOjha/equilibrium/blob/main/imgs/sixteen_member_sol.png" alt="drawing" width="500"/>
-**Figure.** Solutions on equilibrium path characterized by verticle and non-vertical force on the structure.  The black line is the analytical solution and the points are solutions obtained by applying optimization algorithms.
+*Figure.* Solutions on equilibrium path characterized by verticle and non-vertical force on the structure.  The black line is the analytical solution and the points are solutions obtained by applying optimization algorithms.
 
 ## MATLAB Code Structure
 
