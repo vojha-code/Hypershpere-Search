@@ -27,16 +27,16 @@ A load is applied vertically downward on the structure shown below. This produce
 - Structure_Problems
 
 ### Main Domain Analysis Trials
-```console
-$ main_optimize_structure_main_trails.m
+```Matlab
+main_optimize_structure_main_trails.m
 ```
 Discrete Domain Analysis Trials
-```console
-$ main_optimize_structure_discrete.m
+```Matlab
+main_optimize_structure_discrete.m
 ```
 
 ### Hypershpere Search Methods Trials
-```console
-$ main_optimize_structure_hypersphere.m
+```Matlab
+main_optimize_structure_hypersphere.m
 ```
 
