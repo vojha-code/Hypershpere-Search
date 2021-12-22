@@ -1,4 +1,6 @@
 
+% 3D Reticular Beam Example
+
 global Ucp n_step Cpt Ipt_gdl
 global U F Fint 
 global nodes elements Aff  
