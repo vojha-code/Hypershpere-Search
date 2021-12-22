@@ -1,5 +1,9 @@
 # Equilibrium - Space Truss Structure Optimization 
-Civil Engineering Problem: Space Truss Structure Equilibrium Optimization and Analysis.
+Introduction to a Civil Engineering Problem: Space Truss Structure Equilibrium Optimization and Analysis. This is a multistep incremental procedure based on gradient-free optimization algorithms for nonlinear pre- and post-buckling analyses of space truss structures subjected to large displacements. This is a class of nonlinear, multimodal, unconstrained, continuous minimization problems. This code solves three problems:  
+1. Benchmark 1: Eight-Member Shallow Truss Structure
+2. Benchmark 2: Sixteen-Member Shallow Truss Structure 
+3. Test Problem: 3D reticular beam 
+
 
 ## An Example
 
