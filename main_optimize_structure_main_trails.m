@@ -17,8 +17,7 @@ warning('off'); % remove unnecessary printing of stuff
 %---------------------------------------------------
 % define the structure
 %---------------------------------------------------
-nProblem = "Star"; % "EightMember"  "Star"  "Bridge"  "Arch"  "Dome"
-
+nProblem = "Star"; % "EightMember"  "Star"  "Bridge"  
 disp([' Running ' nProblem]);
 if (nProblem == "EightMember")
     SettingEigntMember;
@@ -26,12 +25,6 @@ elseif (nProblem == "Star")
     SetttingStar;
 elseif (nProblem == "Bridge")
     SettingBridge;
-elseif (nProblem == "Bridge2D")
-    SettingBridge2D;
-elseif (nProblem == "Arch")
-    SettingArch;
-elseif (nProblem == "Dome")
-    SettingDome;
 end
 
 % Check the varaible setting
