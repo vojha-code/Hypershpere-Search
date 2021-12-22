@@ -20,6 +20,12 @@ A load is applied vertically downward on the structure shown below. This produce
 
 **Figure.** Solutions on equilibrium path characterized by verticle and non-vertical force on the structure.  The black line is the analytical solution and the points are solutions obtained by applying optimization algorithms.
 
+### Optimization Algorithms
+
+<img src="https://github.com/VarunKumarOjha/equilibrium/blob/main/imgs/algorithms.png" alt="drawing" width="500"/>
+
+**Figure.** Convergence analysis of algorithms over (all) solutions with equilibrium value 10^{-5} on Eight-member shallow truss structure problem. Algorithms are Artificial Bee Colony (ABC), Ant Colony Optimization (ACO), Differential Evolution (DE/best/2/bin), Differential Evolution (DE/rand/1/bin), Direct, Particle Swarm Optimization Constriction (PSO-Const), Particle Swarm Optimization Standard  (PSO-Std), and Simulated Annealing (SA).
+
 ## MATLAB Code Structure
 
 - Algorithms
