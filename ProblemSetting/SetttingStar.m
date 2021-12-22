@@ -1,5 +1,5 @@
 %---------------------------------------------------
-% define the structure
+% define the structure Sixteen_member_shallow
 %---------------------------------------------------
 if (nProblem == "Star")
     Sixteen_member_shallow;  % load + 15 dof from literature -  3d start
