@@ -4,7 +4,6 @@ Introduction to a Civil Engineering Problem: Space Truss Structure Equilibrium O
 2. Benchmark 2: Sixteen-Member Shallow Truss Structure 
 3. Test Problem: 3D reticular beam 
 
-
 ## Example 
 
 ### Problem - Sixteen-Member Shallow Truss Structure
@@ -29,6 +28,11 @@ A load is applied vertically downward on the structure shown below. This produce
 - ObjectiveFunc
 - ProblemSetting
 - Structure_Problems
+
+_Dependencies:_ Code has no dependencies, but it acknowledges and refers yarpiz for optimization algorithms implementation. All other (problem and framework) implementations require no dependecies. 
+
+MATLAB Version used for the implemnetation is MATLAB R2020a
+
 
 ### Domain Analysis Trials
 
