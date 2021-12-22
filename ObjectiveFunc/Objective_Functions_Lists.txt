@@ -1,0 +1,10 @@
+nCostFun == "mulNone" ->  CostFunction = @(x) ObjSOP1_Org(x,step,R,Tol_R,Tol_dir); 
+nCostFun == "mulDisp" ->  CostFunction = @(x) ObjSOP1_M100Disp(x,step,R,Tol_R,Tol_dir); 
+nCostFun == "mulAll"  ->  CostFunction = @(x) ObjSOP1_M100All(x,step,R,Tol_R,Tol_dir);
+
+nCostFun == "mulNoneV2" -> CostFunction = @(x) ObjSOP1V2(x,step,R,Tol_R,Tol_dir);     
+nCostFun == "mulDispV2" -> CostFunction = @(x) ObjSOP1_M100DispV2(x,step,R,Tol_R,Tol_dir);
+nCostFun == "mulAllV2"  -> CostFunction = @(x) ObjSOP1_M100DispV2(x,step,R,Tol_R,Tol_dir);
+
+DIRECT -> ObjFunc01_NoParam
+DIRECT -> ObjFunc01_NoParamV2
